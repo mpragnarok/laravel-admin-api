@@ -33,7 +33,7 @@ class AuthController extends Controller
         $user = Auth::user();
 
         $token = $user->createToken('token')->plainTextToken;
-        $cookie = cookie('jwt',$token,60*24);
+        $cookie = cookie('jwt', $token, 60 * 24);
 
         return response([
             'jwt' => $token
@@ -45,4 +45,13 @@ class AuthController extends Controller
         return $request->user();
     }
 
+
+    public function logout()
+    {
+        // Instead of making sure I remember to add my $cookie object to the response, I instead use the #queue method to avoid it all together.
+        \Cookie::queue(\Cookie::forget('jwt'));
+        return response([
+            'message' => 'success',
+        ]);
+    }
 }
