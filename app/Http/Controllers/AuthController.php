@@ -48,10 +48,10 @@ class AuthController extends Controller
 
     public function logout()
     {
-        // Instead of making sure I remember to add my $cookie object to the response, I instead use the #queue method to avoid it all together.
-        \Cookie::queue(\Cookie::forget('jwt'));
+
+        $cookie = \Cookie::forget('jwt');
         return response([
             'message' => 'success',
-        ]);
+        ])->withCookie($cookie);
     }
 }
