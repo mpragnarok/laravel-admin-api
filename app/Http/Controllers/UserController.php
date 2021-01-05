@@ -12,11 +12,11 @@ class UserController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return User[]
+     * @return \Illuminate\Contracts\Pagination\LengthAwarePaginator
      */
     public function index()
     {
-        return User::all();
+       return User::paginate(15);
     }
 
     /**
