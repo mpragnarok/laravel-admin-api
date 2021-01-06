@@ -6,18 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="64a96c7d-ce22-4213-83e7-b6f77b44c794" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/personal_access_tokens.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/personal_access_tokens.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/users.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ibtmp1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -156,7 +159,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../projects/am2020" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -174,7 +177,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609749616088</updated>
-      <workItem from="1609749617996" duration="22242000" />
+      <workItem from="1609749617996" duration="24924000" />
+      <workItem from="1609910619407" duration="4617000" />
     </task>
     <servers />
   </component>
@@ -191,5 +195,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
