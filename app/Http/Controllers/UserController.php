@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\UserCreateRequest;
 use App\Http\Requests\UserUpdateRequest;
+use App\Http\Resources\UserResource;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -14,11 +15,11 @@ class UserController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Contracts\Pagination\LengthAwarePaginator
+     * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
      */
     public function index()
     {
-       return User::with('role')->paginate(15);
+       return UserResource::collection(User::paginate(15));
     }
 
     /**
@@ -30,21 +31,21 @@ class UserController extends Controller
     public function store(UserCreateRequest $request)
     {
         $user = User::create(
-            $request->only('first_name', 'last_name', 'email')
+            $request->only('first_name', 'last_name', 'email','role_id')
             // + to merge the array
             + ['password' => Hash::make(1234)]);
-        return response($user, Response::HTTP_CREATED);
+        return response(new UserResource($user), Response::HTTP_CREATED);
     }
 
     /**
      * Display the specified resource.
      *
      * @param int $id
-     * @return User|\Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Eloquent\Builder[]|\Illuminate\Database\Eloquent\Collection|\Illuminate\Database\Eloquent\Model
+     * @return UserResource
      */
     public function show($id)
     {
-        return User::with('role')->find($id);
+        return new UserResource(User::find($id));
     }
 
     /**
@@ -58,7 +59,7 @@ class UserController extends Controller
     {
         $user = User::find($id);
         $user->update($request->only('first_name', 'last_name', 'email'));
-        return response($user, Response::HTTP_ACCEPTED);
+        return response(new UserResource($user), Response::HTTP_ACCEPTED);
     }
 
     /**

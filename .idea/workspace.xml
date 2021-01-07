@@ -7,8 +7,7 @@
     <list default="true" id="64a96c7d-ce22-4213-83e7-b6f77b44c794" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ibdata1" afterDir="false" />
     </list>
@@ -177,7 +176,7 @@
       <updated>1609749616088</updated>
       <workItem from="1609749617996" duration="24924000" />
       <workItem from="1609910619407" duration="6805000" />
-      <workItem from="1610000620367" duration="1622000" />
+      <workItem from="1610000620367" duration="2244000" />
     </task>
     <servers />
   </component>
