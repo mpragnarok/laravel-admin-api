@@ -41,5 +41,10 @@ class User extends Authenticatable
     protected $guarded=[];
     protected $hidden =['password'];
 
+    // make the relationship with role table
+     public function role()
+     {
+         return $this->belongsTo(Role::class);
+     }
 
 }
