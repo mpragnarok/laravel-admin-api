@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64a96c7d-ce22-4213-83e7-b6f77b44c794" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/27dc4441-c9f2-49a5-b523-b3348dcaa924.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/27dc4441-c9f2-49a5-b523-b3348dcaa924.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PermissionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PermissionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Resources/UserResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/UserResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_06_065749_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_065749_create_roles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_06_070116_create_permission_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_070116_create_permission_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/permission.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/permission.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/personal_access_tokens.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/personal_access_tokens.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/roles.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/roles.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/users.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ibdata1" afterDir="false" />
     </list>
@@ -178,7 +185,7 @@
       <updated>1609749616088</updated>
       <workItem from="1609749617996" duration="24924000" />
       <workItem from="1609910619407" duration="6805000" />
-      <workItem from="1610000620367" duration="2849000" />
+      <workItem from="1610000620367" duration="4256000" />
     </task>
     <servers />
   </component>
