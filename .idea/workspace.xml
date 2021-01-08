@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64a96c7d-ce22-4213-83e7-b6f77b44c794" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/27dc4441-c9f2-49a5-b523-b3348dcaa924.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/27dc4441-c9f2-49a5-b523-b3348dcaa924.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/OrderResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/OrderResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OrderItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OrderItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_08_034215_create_orders_items_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/migrations.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/migrations.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/orders.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/orders.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/orders_items.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/orders_items.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/personal_access_tokens.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/personal_access_tokens.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/mysql/innodb_table_stats.ibd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +188,7 @@
       <workItem from="1609749617996" duration="24924000" />
       <workItem from="1609910619407" duration="6805000" />
       <workItem from="1610000620367" duration="6642000" />
-      <workItem from="1610070783141" duration="6302000" />
+      <workItem from="1610070783141" duration="11060000" />
     </task>
     <servers />
   </component>
