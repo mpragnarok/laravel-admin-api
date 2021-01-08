@@ -47,4 +47,7 @@ class Order extends Model
     {
         return $this->orderItems->sum(fn(OrderItem $orderItem) => $orderItem->quantity * $orderItem->price);
     }
+
+
+
 }
