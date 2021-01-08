@@ -19,7 +19,8 @@ class UserController extends Controller
      */
     public function index()
     {
-       return UserResource::collection(User::with('role')->paginate(15));
+        $this->authorize('view', 'users');
+        return UserResource::collection(User::with('role')->paginate(15));
     }
 
     /**
@@ -30,8 +31,9 @@ class UserController extends Controller
      */
     public function store(UserCreateRequest $request)
     {
+        $this->authorize('edit', 'users');
         $user = User::create(
-            $request->only('first_name', 'last_name', 'email','role_id')
+            $request->only('first_name', 'last_name', 'email', 'role_id')
             // + to merge the array
             + ['password' => Hash::make(1234)]);
         return response(new UserResource($user), Response::HTTP_CREATED);
@@ -45,6 +47,8 @@ class UserController extends Controller
      */
     public function show($id)
     {
+        $this->authorize('view', 'users');
+
         return new UserResource(User::with('role')->find($id));
     }
 
@@ -57,6 +61,8 @@ class UserController extends Controller
      */
     public function update(UserUpdateRequest $request, $id)
     {
+        $this->authorize('edit', 'users');
+
         $user = User::find($id);
         $user->update($request->only('first_name', 'last_name', 'email'));
         return response(new UserResource($user), Response::HTTP_ACCEPTED);
