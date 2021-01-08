@@ -7,18 +7,27 @@
     <list default="true" id="64a96c7d-ce22-4213-83e7-b6f77b44c794" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/27dc4441-c9f2-49a5-b523-b3348dcaa924.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/27dc4441-c9f2-49a5-b523-b3348dcaa924.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PermissionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PermissionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Permission.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_06_065749_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_065749_create_roles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_06_070116_create_permission_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_070116_create_permission_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/permission.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/permission.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/migrations.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/migrations.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/permission.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/permission.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/permissions.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/permissions.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/personal_access_tokens.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/personal_access_tokens.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/role_permissions.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/role_permissions.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/roles.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/roles.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/admin/users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/admin/users.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/auto.cnf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/dbdata/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/dbdata/mysql/innodb_table_stats.ibd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +175,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../projects/am2020" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -185,7 +194,8 @@
       <updated>1609749616088</updated>
       <workItem from="1609749617996" duration="24924000" />
       <workItem from="1609910619407" duration="6805000" />
-      <workItem from="1610000620367" duration="4256000" />
+      <workItem from="1610000620367" duration="6642000" />
+      <workItem from="1610070783141" duration="2357000" />
     </task>
     <servers />
   </component>
